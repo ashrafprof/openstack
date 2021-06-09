@@ -1,0 +1,7 @@
+---
+- hosts: myhost
+  become: true
+  roles:
+  - rabbit-cluster 
+  - ha-proxy
+  

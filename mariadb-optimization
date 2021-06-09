@@ -1,0 +1,6 @@
+---
+- hosts: myhost
+  become: true
+  roles:
+  - mariadb-optimization
+  

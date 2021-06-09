@@ -1,0 +1,4 @@
+---
+- import_playbook: docker-install.yml
+- import_playbook: haproxy-rabbit.yml
+- import_playbook: mariadb-optimization
